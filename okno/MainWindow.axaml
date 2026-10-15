@@ -9,40 +9,48 @@
         Title="Zadanie 2.3"
         Background="Gray">
     <Border BorderBrush="White" BorderThickness="6">
-        <StackPanel HorizontalAlignment="Center"
-                    VerticalAlignment="Center"
-                    Spacing="10">
-            <TextBlock Text="Użyłem agenta"
-                       HorizontalAlignment="Center"
-                       FontStyle="Italic"
-                       FontSize="28" />
-            <TextBlock Text="Moja aplikacja Avalonia"
-                       HorizontalAlignment="Center" />
-            <Button Content="Kliknij mnie"
-                    HorizontalAlignment="Center">
-                <Button.Styles>
-                    <Style Selector="Button:pointerover /template/ ContentPresenter#PART_ContentPresenter">
-                        <Setter Property="Background" Value="Green" />
-                    </Style>
-                </Button.Styles>
-            </Button>
-            <Button Content="Nie klikaj mnie"
-                    HorizontalAlignment="Center">
-                <Button.Styles>
-                    <Style Selector="Button:pointerover /template/ ContentPresenter#PART_ContentPresenter">
-                        <Setter Property="Background" Value="Red" />
-                    </Style>
-                </Button.Styles>
-            </Button>
-            <CheckBox Content="TAK"
-                      HorizontalAlignment="Center" />
-            <CheckBox Content="NIE"
-                      HorizontalAlignment="Center" />
-            <Slider Width="200"
-                    Minimum="0"
-                    Maximum="100"
-                    Value="50"
-                    HorizontalAlignment="Center" />
-        </StackPanel>
+        <Grid>
+            <StackPanel HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        Spacing="10">
+                <TextBlock Text="Użyłem agenta"
+                           HorizontalAlignment="Center"
+                           FontStyle="Italic"
+                           FontSize="28" />
+                <TextBlock Text="Moja aplikacja Avalonia"
+                           HorizontalAlignment="Center" />
+                <Button Content="Kliknij mnie"
+                        HorizontalAlignment="Center">
+                    <Button.Styles>
+                        <Style Selector="Button:pointerover /template/ ContentPresenter#PART_ContentPresenter">
+                            <Setter Property="Background" Value="Green" />
+                        </Style>
+                    </Button.Styles>
+                </Button>
+                <Button Content="Nie klikaj mnie"
+                        HorizontalAlignment="Center">
+                    <Button.Styles>
+                        <Style Selector="Button:pointerover /template/ ContentPresenter#PART_ContentPresenter">
+                            <Setter Property="Background" Value="Red" />
+                        </Style>
+                    </Button.Styles>
+                </Button>
+                <CheckBox Content="TAK"
+                          HorizontalAlignment="Center" />
+                <CheckBox Content="NIE"
+                          HorizontalAlignment="Center" />
+                <Slider Width="200"
+                        Minimum="0"
+                        Maximum="100"
+                        Value="50"
+                        HorizontalAlignment="Center" />
+            </StackPanel>
+            <TextBlock Text="Maksymilian Górka"
+                       HorizontalAlignment="Right"
+                       VerticalAlignment="Bottom"
+                       Margin="12"
+                       FontSize="11"
+                       Opacity="0.5" />
+        </Grid>
     </Border>
 </Window>
