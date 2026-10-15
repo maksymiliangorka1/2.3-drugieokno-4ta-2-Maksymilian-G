@@ -2,21 +2,24 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        mc:Ignorable="d" d:DesignWidth="900" d:DesignHeight="450"
+        mc:Ignorable="d" d:DesignWidth="900" d:DesignHeight="900"
         Width="900"
+        Height="900"
         x:Class="okno.MainWindow"
         Title="Zadanie 2.3"
         Background="Gray">
-    <StackPanel HorizontalAlignment="Center"
-                VerticalAlignment="Center"
-                Spacing="10">
-        <TextBlock Text="Użyłem agenta"
-                   HorizontalAlignment="Center"
-                   FontStyle="Italic"
-                   FontSize="28" />
-        <TextBlock Text="Moja aplikacja Avalonia"
-                   HorizontalAlignment="Center" />
-        <Button Content="Kliknij mnie"
-                HorizontalAlignment="Center" />
-    </StackPanel>
+    <Border BorderBrush="White" BorderThickness="6">
+        <StackPanel HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Spacing="10">
+            <TextBlock Text="Użyłem agenta"
+                       HorizontalAlignment="Center"
+                       FontStyle="Italic"
+                       FontSize="28" />
+            <TextBlock Text="Moja aplikacja Avalonia"
+                       HorizontalAlignment="Center" />
+            <Button Content="Kliknij mnie"
+                    HorizontalAlignment="Center" />
+        </StackPanel>
+    </Border>
 </Window>
