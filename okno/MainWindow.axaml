@@ -20,6 +20,8 @@
                        HorizontalAlignment="Center" />
             <Button Content="Kliknij mnie"
                     HorizontalAlignment="Center" />
+            <Button Content="Nie klikaj mnie"
+                    HorizontalAlignment="Center" />
         </StackPanel>
     </Border>
 </Window>
