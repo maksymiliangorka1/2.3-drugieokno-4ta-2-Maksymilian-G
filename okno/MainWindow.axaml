@@ -34,6 +34,10 @@
                     </Style>
                 </Button.Styles>
             </Button>
+            <CheckBox Content="TAK"
+                      HorizontalAlignment="Center" />
+            <CheckBox Content="NIE"
+                      HorizontalAlignment="Center" />
         </StackPanel>
     </Border>
 </Window>
