@@ -15,5 +15,7 @@
                    FontSize="28" />
         <TextBlock Text="Moja aplikacja Avalonia"
                    HorizontalAlignment="Center" />
+        <Button Content="Kliknij mnie"
+                HorizontalAlignment="Center" />
     </StackPanel>
 </Window>
