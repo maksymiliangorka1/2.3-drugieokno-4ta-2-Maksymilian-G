@@ -9,5 +9,6 @@
     <TextBlock Text="Użyłem agenta"
                HorizontalAlignment="Center"
                VerticalAlignment="Center"
-               FontStyle="Italic" />
+               FontStyle="Italic"
+               FontSize="28" />
 </Window>
