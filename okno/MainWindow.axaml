@@ -4,7 +4,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="okno.MainWindow"
-        Title="okno"
+        Title="Zadanie 2.3"
         Background="Gray">
     <TextBlock Text="Użyłem agenta"
                HorizontalAlignment="Center"
