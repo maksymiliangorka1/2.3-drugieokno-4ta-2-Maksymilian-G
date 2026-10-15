@@ -19,9 +19,21 @@
             <TextBlock Text="Moja aplikacja Avalonia"
                        HorizontalAlignment="Center" />
             <Button Content="Kliknij mnie"
-                    HorizontalAlignment="Center" />
+                    HorizontalAlignment="Center">
+                <Button.Styles>
+                    <Style Selector="Button:pointerover /template/ ContentPresenter#PART_ContentPresenter">
+                        <Setter Property="Background" Value="Green" />
+                    </Style>
+                </Button.Styles>
+            </Button>
             <Button Content="Nie klikaj mnie"
-                    HorizontalAlignment="Center" />
+                    HorizontalAlignment="Center">
+                <Button.Styles>
+                    <Style Selector="Button:pointerover /template/ ContentPresenter#PART_ContentPresenter">
+                        <Setter Property="Background" Value="Red" />
+                    </Style>
+                </Button.Styles>
+            </Button>
         </StackPanel>
     </Border>
 </Window>
