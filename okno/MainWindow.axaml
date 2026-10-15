@@ -38,6 +38,11 @@
                       HorizontalAlignment="Center" />
             <CheckBox Content="NIE"
                       HorizontalAlignment="Center" />
+            <Slider Width="200"
+                    Minimum="0"
+                    Maximum="100"
+                    Value="50"
+                    HorizontalAlignment="Center" />
         </StackPanel>
     </Border>
 </Window>
